@@ -1,0 +1,45 @@
+#header-nav {
+    background-color: #100164fd;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: #ff552a;
+  font-size: 3 em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list{
+  margin-top: 10px;
+  
+}
+
+#nav-list a{
+  color: white;
+  font-size: large;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.paragraph{
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.164);
+  color: black;
+  font-size: medium;
+}
+
+
+
+@media (max-width:767px){
+  #nav-list a{
+    text-align: center;
+  }
+}
